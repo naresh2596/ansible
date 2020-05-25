@@ -11,6 +11,7 @@
     apt:
       name: tree
   
-  - name: install wget
+  - name: install wget on nodes
     apt:
-      name: wget
+     name: wget   
+     state: present
