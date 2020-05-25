@@ -8,7 +8,7 @@
      state: present
     when: ansible_os_family == "Debian"
 
-  - name: install jdk8 on amazonlinux2 node2
+  - name: install jdk11 on amazonlinux2 node2
     yum:
      name: "{{myjavaonamazonos}}"
      state: present
