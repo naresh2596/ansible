@@ -1,5 +1,5 @@
 ---
-- hosts: ubuntuos
+- hosts: webservers
   become: yes
   tasks: 
   - name: install git
