@@ -1,5 +1,5 @@
 ---
-- hosts: ubuntuos
+- hosts: ubuntos
   become: yes
   tasks:
   - name: i want to webserver on ubuntu
